@@ -1,0 +1,28 @@
+body {background-color: blanchedalmond;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    h1 {text-align: center;
+    text-decoration: underline;}
+    
+    .box {
+        background-color: blanchedalmond;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        padding: 0 50px;
+        position: relative;
+    }
+    div img {
+        width: 500px;
+    }
+    a {
+        text-decoration: none;
+        float: right;
+       font-weight: 200;
+       font-size: larger;
+       color: black;
+       border: 2px solid black;
+    }
